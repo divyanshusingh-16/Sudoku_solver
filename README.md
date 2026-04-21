@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sudoku Solver - Visualizer & Tool
 
 ## 📌 Project Overview
@@ -192,3 +193,6 @@ This project teaches:
 - The original puzzle numbers are locked (gray background)
 - Invalid inputs (letters, symbols) are automatically filtered out
 - The backtrack counter helps understand algorithm efficiency
+=======
+# Sudoku_solver
+>>>>>>> ac6d50aad76bdd22fabf780820e8954bf97b7d8f
