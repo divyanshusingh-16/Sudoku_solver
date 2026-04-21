@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Sudoku Solver <span class="subtitle">Visualizer & Tool</span></h1>
+        <div class="controls-panel">
+            <div class="control-group">
+                <button id="btn-direct" class="btn primary">Direct Solve</button>
+                <button id="btn-play" class="btn primary">Play Animation</button>
+                <button id="btn-pause" class="btn secondary" disabled>Pause</button>
+                <button id="btn-step" class="btn secondary">Step</button>
+                <button id="btn-clear" class="btn danger">Clear</button>
+                <button id="btn-reset" class="btn secondary">Reset</button>
+            </div>
+            <div class="control-group">
+                <label for="speed-slider">Speed:</label>
+                <input type="range" id="speed-slider" min="10" max="1000" value="800">
+            </div>
+            <div class="stats-panel">
+                <span>Backtracks: <strong id="backtrack-count">0</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <div id="board-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
